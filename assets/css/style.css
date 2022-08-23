@@ -51,6 +51,9 @@ nav a {
 nav a:hover {
     color: darkred;
 }
+nav a.current {
+    color:white;
+  }
 
 #banner {
     width: 100%;
@@ -64,6 +67,26 @@ nav a:hover {
 }
 
 .service {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid green;
+    border-radius: 5px;
+    color: darkred;
+    font-size: 2em;
+    padding: 20px;
+    margin: 10px;
+}
+.take {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid green;
+    border-radius: 5px;
+    color: darkred;
+    font-size: 2em;
+    padding: 20px;
+    margin: 10px;
+}
+.delivery {
     display: inline-block;
     background-color: white;
     border: 5px solid green;
